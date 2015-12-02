@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+	<PreferenceCategory android:title="User Setting" >
+    	<EditTextPreference 
+    	    android:dialogTitle="IP Address" 
+    	    android:dialogMessage="@string/ip_address" 
+    	    android:defaultValue="65.60.167.57" 
+    	    android:title="IP Address" 
+    	    android:persistent="True" 
+    	    android:key="ip_address" 
+    	    android:enabled="true" 
+    	    android:selectable="true"/>
+	</PreferenceCategory>
+</PreferenceScreen>
